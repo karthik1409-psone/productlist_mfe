@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-header productliststyle">
+            <h6>ProductsComponent of ProductList MFE in ProductList Module</h6>
+        </div>
+        <div class="card-body">
+            <p>
+                {{ message }}
+            </p>
+            <div *ngFor="let id of ids">
+                <a routerLink="product/{{id}}">Details of product with id: {{ id }}</a>
+            </div>
+            <hr/>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
