@@ -11,7 +11,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "productlistMfe",
-    publicPath: "auto"
+    publicPath: "/productlistmfe"
   },
   optimization: {
     runtimeChunk: false
