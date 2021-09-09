@@ -24,7 +24,7 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
         name: "productlistmfeapp",
-        filename: "remoteEntry.js",
+        filename: "productlistmfe/remoteEntry.js",
         exposes: {
             './ProductListMFE': './/src/app/product-list/product-list.module.ts',
         },       
