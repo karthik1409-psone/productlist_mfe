@@ -25,6 +25,7 @@ export class ProductsComponent implements OnInit {
     }
 
     console.log("ProdictListMFE items in cart: " +this.svc.GetProductCount());
+    console.log("ProdictListMFE items in cart: " +this.svc.GetProductCount());
     
   }
 }
