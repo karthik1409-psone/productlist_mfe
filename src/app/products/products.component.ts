@@ -23,6 +23,8 @@ export class ProductsComponent implements OnInit {
     {
       this.ids.push(faker.datatype.number());
     }
+
+    console.log("ProdictListMFE items in cart: " +this.svc.GetProductCount());
     
   }
 }
